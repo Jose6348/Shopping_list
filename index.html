@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Compras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&family=Numans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+
+    <main>
+        <img src="./img/bag.png" alt="sacola de compras">
+        <form>
+            <input class="input-item" type="text" placeholder="Digite o item que deseja adicionar"></input>
+            <button class="button-item">Salvar item</button>
+        </form>
+
+        <div class="container-lista">
+            <h2>Lista de compras</h2>
+            <hr>
+
+            <ul>
+                <li>
+                    <div class="lista-item-container">
+                        <div>
+                            <div class="container-checkbox">
+                                <label for="checkbox-1">
+                                    <input type="checkbox" class="input-checkbox" id="checkbox-1" />
+                                    <div class="checkbox-customizado checked"></div>
+                                </label>
+                            </div>
+                            <p>Ração de gato</p>
+                        </div>
+
+                        <div>
+                            <button class="item-lista-button">
+                                <img src="./img/delete.svg" alt="remover">
+                            </button>
+                            <button class="item-lista-button">
+                                <img src="./img/edit.svg" alt="editar">
+                            </button>
+                        </div>
+                    </div>
+                    <p class="texto-data">Segunda-feira (31/10/2022) às 08:30</p>
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>
